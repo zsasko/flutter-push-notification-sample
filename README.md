@@ -18,7 +18,7 @@ In order to fetch Flutter dependencies, please execute the following script:
 ```
 flutter pub get
 ```
-And run the app by executing the following script:
+And run the app in emulator by executing the following script:
 ```
 flutter build apk
 flutter install
