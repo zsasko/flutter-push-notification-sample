@@ -83,7 +83,7 @@ class _PushSampleAppState extends State<PushSampleApp> {
   }
 
   Future<void> sendTokenToServer(String token) async {
-    var url = 'http://localhost:5000/';
+    var url = 'http://localhost:5000/send-token';
     var uuid = UniqueKey().toString();
     var response = await http
         .post(url, body: {'uuid': uuid, 'token': token, 'platform': 'android'});
